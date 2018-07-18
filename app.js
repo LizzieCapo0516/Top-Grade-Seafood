@@ -10,7 +10,7 @@ var crabStore =
     {"product": "Yellow Crab", "price":"43.95"},
 ];
 
-var cardOut = "";
+var cardRow = "";
 
 var cardDeck = "<div class='card-deck'>"
 var card = "<div class='card'>"
@@ -18,14 +18,37 @@ var cardBody = "<div class='card-body'>"
 
 var closeDiv = "</div>"
 
+var num = 0;
+
 crabStore.forEach(function(e){
+
+    var cardOut = "";
+    var newRow = "";
+
     var prod = "<h5 class='card-title'>" + e.product + "</h5>";
     var price =  "<p class='card-text'>Price: " + e.price + "</p>";
-    cardOut = cardOut + card + cardBody + prod + price + closeDiv + closeDiv;
+
+    num++;
+    var rem = num % 3;
+    console.log("remainder: " + rem);
+
+    if (rem == 0){
+        newRow =  "<div class='row'>"
+        closeRow = "</div>";  
+    }
+    else {
+        newRow = "";
+        closeRow = "";
+    }
+ 
+    console.log("newRow: " + newRow);
+
+    cardOut = card + cardBody + prod + price + closeDiv + closeDiv;
+    cardRow = newRow + cardOut + closeRow;
+
+    console.log("row: " + cardOut);
     
 });
-
-// var htmlOutput = jumboCrabOutput + blueCrabOut;
 
 mainbody.innerHTML = cardDeck + cardOut + closeDiv;
 
