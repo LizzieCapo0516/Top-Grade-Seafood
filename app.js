@@ -8,6 +8,8 @@ var crabStore =
     {"product": "Yellow Crab", "price":"43.95"},
     {"product": "Yellow Crab", "price":"43.95"},
     {"product": "Yellow Crab", "price":"43.95"},
+    {"product": "Yellow Crab", "price":"44.95"},
+    {"product": "Yellow Crab", "price":"44.95"},
 ];
 
 var num = 0;
@@ -28,7 +30,7 @@ crabStore.forEach(function(e){
     var rem = num % 3;
     console.log("remainder: " + rem);
 
-    if (rem == 0){
+    if (rem == 0 || crabStore.length == num){
         stack = stack + cardDeckTag + cardOut + closeDiv;
         cardOut = "";
     }
