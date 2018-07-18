@@ -16,7 +16,7 @@ var num = 0;
 var stack = "";
 var cardOut = "";
 var closeDiv = "</div>"
-var cardTag = "<div class='card'>"
+var cardTag = "<div class='card col-3'>"
 var cardDeckTag = "<div class='card-deck mt-4'>"
 var cardBodyTag = "<div class='card-body'>"
 
