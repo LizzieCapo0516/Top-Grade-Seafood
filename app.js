@@ -10,46 +10,29 @@ var crabStore =
     {"product": "Yellow Crab", "price":"43.95"},
 ];
 
-var cardRow = "";
-
-var cardDeck = "<div class='card-deck'>"
-var card = "<div class='card'>"
-var cardBody = "<div class='card-body'>"
-
-var closeDiv = "</div>"
-
 var num = 0;
+var stack = "";
+var cardOut = "";
+var closeDiv = "</div>"
+var cardTag = "<div class='card'>"
+var cardDeckTag = "<div class='card-deck mt-4'>"
+var cardBodyTag = "<div class='card-body'>"
 
 crabStore.forEach(function(e){
 
-    var cardOut = "";
-    var newRow = "";
-
     var prod = "<h5 class='card-title'>" + e.product + "</h5>";
     var price =  "<p class='card-text'>Price: " + e.price + "</p>";
+    cardOut = cardOut + cardTag + cardBodyTag + prod + price + closeDiv + closeDiv;
 
     num++;
     var rem = num % 3;
     console.log("remainder: " + rem);
 
     if (rem == 0){
-        newRow =  "<div class='row'>"
-        closeRow = "</div>";  
+        stack = stack + cardDeckTag + cardOut + closeDiv;
+        cardOut = "";
     }
-    else {
-        newRow = "";
-        closeRow = "";
-    }
- 
-    console.log("newRow: " + newRow);
-
-    cardOut = card + cardBody + prod + price + closeDiv + closeDiv;
-    cardRow = newRow + cardOut + closeRow;
-
-    console.log("row: " + cardOut);
     
 });
 
-mainbody.innerHTML = cardDeck + cardOut + closeDiv;
-
-
+mainbody.innerHTML = stack;
