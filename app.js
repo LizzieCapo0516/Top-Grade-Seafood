@@ -35,7 +35,8 @@ function renderPage(crabs){
     
         var prod = "<h5 class='card-title'>" + el.product + "</h5>";
         var price =  "<p class='card-text'>Price: " + el.price + "</p>";
-        cardOut = cardOut + cardTag + cardBodyTag + prod + price + closeDiv + closeDiv;
+        var cardImg = "<img class='card-img-top' src='" + el.image + "' alt='Card image cap'>"
+        cardOut = cardOut + cardTag + cardImg + cardBodyTag + prod + price + closeDiv + closeDiv;
     
         num++;
         var rem = num % 3;
