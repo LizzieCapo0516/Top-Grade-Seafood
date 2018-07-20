@@ -66,9 +66,15 @@ p.footer {
 }
 
 .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2em;
-        margin-bottom: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#prodPrice {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #918f8f;
 }

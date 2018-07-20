@@ -23,18 +23,19 @@ function renderPage(productArr){
     var num = 0;
     var stack = "";
     var cardOut = "";
-    var closeDiv = "</div>"
-    var cardTag = "<div class='card col-6'>"
-    var cardDeckTag = "<div class='card-deck mt-4'>"
-    var cardBodyTag = "<div class='card-body'>"
+    var closeDiv = "</div>";
+    var cardTag = "<div class='card col-6'>";
+    var cardDeckTag = "<div class='card-deck mt-4'>";
+    var cardBodyTag = "<div class='card-body'>";
     var mainbody = document.getElementById ("mainBody");
     
     productArr.forEach(function(el){
     
         var prod = "<h5 class='card-title'>" + el.product + "</h5>";
         var price =  "<p class='card-text'>Price: " + el.price + "</p>";
-        var cardImg = "<img class='card-img-top' src='" + el.image + "' alt='Card image cap'>"
-        cardOut = cardOut + cardTag + cardImg + cardBodyTag + prod + price + closeDiv + closeDiv;
+        var productDetailLink = "<a href='productDetail.html?pid=" + el.productID + "'>Details</a>";
+        var cardImg = "<img class='card-img-top' src='" + el.image + "' alt='Card image cap'>";
+        cardOut = cardOut + cardTag + cardImg + cardBodyTag + prod + price + productDetailLink + closeDiv + closeDiv;
     
         num++;
         var rem = num % 3;
