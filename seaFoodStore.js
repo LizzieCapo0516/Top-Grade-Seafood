@@ -1,50 +1,219 @@
 var seaFoodStore = 
 [
+
+    // CRABS----------------------------------
     {
         "category":"crabs",
-        "product": "Jumbo Crab", 
-        "price":"36.95",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsvr7pDLbpblfnYR-UjBQ5RSw3hTykxWZ01ZjxryRnlvbvWjf",
+        "product": "Medium Soft Shell Crab", 
+        "price":"25.00",
+        "image": "https://dl2.pushbulletusercontent.com/wn2NB5FwQboxpvmG5vhZ5BEYwYQDDG7I/Crab2.jpg",
     },
     
     { 
         "category":"crabs",
-        "product": "Blue Crab",
-        "price":"33.95",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsvr7pDLbpblfnYR-UjBQ5RSw3hTykxWZ01ZjxryRnlvbvWjf",
+        "product": "Hotel Soft Shell Crab",
+        "price":"35.00",
+        "image": "https://dl2.pushbulletusercontent.com/wn2NB5FwQboxpvmG5vhZ5BEYwYQDDG7I/Crab2.jpg",
     },
     
     {
         "category":"crabs",
-        "product": "Green Crab",
-        "price":"23.95",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsvr7pDLbpblfnYR-UjBQ5RSw3hTykxWZ01ZjxryRnlvbvWjf"
+        "product": "Prime Soft Shell Crab",
+        "price":"45.00",
+        "image": "https://dl2.pushbulletusercontent.com/wn2NB5FwQboxpvmG5vhZ5BEYwYQDDG7I/Crab2.jpg",
     },
 
     {
         "category":"crabs",
-        "product": "Yellow Crab",
-        "price":"43.95",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsvr7pDLbpblfnYR-UjBQ5RSw3hTykxWZ01ZjxryRnlvbvWjf",
+        "product": "Jumbo Soft Shell Crab",
+        "price":"60.00",
+        "image": "https://dl2.pushbulletusercontent.com/wn2NB5FwQboxpvmG5vhZ5BEYwYQDDG7I/Crab2.jpg",
     },
 
     {
         "category":"crabs",
-        "product": "Pink Crab",
-        "price":"43.95",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsvr7pDLbpblfnYR-UjBQ5RSw3hTykxWZ01ZjxryRnlvbvWjf",
+        "product": "Whale Soft Shell Crab",
+        "price":"75.00",
+        "image": "https://dl2.pushbulletusercontent.com/wn2NB5FwQboxpvmG5vhZ5BEYwYQDDG7I/Crab2.jpg",
     },
 
     {
         "category":"crabs",
-        "product": "Red Crab",
+        "product": "Krusty Crab",
         "price":"43.95",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsvr7pDLbpblfnYR-UjBQ5RSw3hTykxWZ01ZjxryRnlvbvWjf",
+        "image": "https://dl2.pushbulletusercontent.com/wn2NB5FwQboxpvmG5vhZ5BEYwYQDDG7I/Crab2.jpg",
     },
     
-    { "category":"shrimp","product": "Yellow Shrimp", "price":"43.95"},
+// OYSTERS----------------------------------
+    {
+        "category":"oysters",
+        "product": "One Oyster",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+    {
+        "category":"oysters",
+        "product": "Two Oysters",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+    {
+        "category":"oysters",
+        "product": "Two Oysters",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+    {
+        "category":"oysters",
+        "product": "Two Oysters",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+    {
+        "category":"oysters",
+        "product": "Two Oysters",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+    {
+        "category":"oysters",
+        "product": "Two Oysters",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+    // SHRIMP----------------------------------
+    {
+        "category":"shrimp",
+        "product": "Yellow Shrimp",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/YqPV0o8Q9UROalfXskMHShxodPcFBJLH/Shrimp2.jpg",
+    },
     
-    { "category":"shrimp","product": "Yellow Shrimp", "price":"44.95"},
+    {
+        "category":"shrimp",
+        "product": "Blue Shrimp",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/YqPV0o8Q9UROalfXskMHShxodPcFBJLH/Shrimp2.jpg",
+    },
     
-    { "category":"shrimp","product": "Yellow Shrimp", "price":"44.95"},
+    {
+        "category":"shrimp",
+        "product": "Red Shrimp",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/YqPV0o8Q9UROalfXskMHShxodPcFBJLH/Shrimp2.jpg",
+    },
+    
+    {
+        "category":"shrimp",
+        "product": "Red Shrimp",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/YqPV0o8Q9UROalfXskMHShxodPcFBJLH/Shrimp2.jpg",
+    },
+    
+    {
+        "category":"shrimp",
+        "product": "Red Shrimp",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/YqPV0o8Q9UROalfXskMHShxodPcFBJLH/Shrimp2.jpg",
+    },
+    
+    {
+        "category":"shrimp",
+        "product": "Red Shrimp",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/YqPV0o8Q9UROalfXskMHShxodPcFBJLH/Shrimp2.jpg",
+    },
+
+    // SCALLOPS----------------------------------
+    {
+        "category":"scallops",
+        "product": "One Scallop",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+    {
+        "category":"scallops",
+        "product": "Two Scallops",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+    {
+        "category":"scallops",
+        "product": "Two Scallops",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+    {
+        "category":"scallops",
+        "product": "Two Scallops",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+    {
+        "category":"scallops",
+        "product": "Two Scallops",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+    {
+        "category":"scallops",
+        "product": "Two Scallops",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
+
+        // Clams----------------------------------
+        {
+            "category":"clams",
+            "product": "One Clam",
+            "price":"43.95",
+            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+        },
+    
+        {
+            "category":"clams",
+            "product": "Two Clams",
+            "price":"43.95",
+            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+        },
+    
+        {
+            "category":"clams",
+            "product": "Two Clams",
+            "price":"43.95",
+            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+        },
+    
+        {
+            "category":"clams",
+            "product": "Two Clams",
+            "price":"43.95",
+            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+        },
+    
+        {
+            "category":"clams",
+            "product": "Two Clams",
+            "price":"43.95",
+            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+        },
+    
+        {
+            "category":"clams",
+            "product": "Two Clams",
+            "price":"43.95",
+            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+        },
 ];
+
