@@ -174,46 +174,46 @@ var seaFoodStore =
     },
 
         // Clams----------------------------------
-        {
-            "category":"clams",
-            "product": "One Clam",
-            "price":"43.95",
-            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
-        },
+    {
+        "category":"clams",
+        "product": "One Clam",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
     
-        {
-            "category":"clams",
-            "product": "Two Clams",
-            "price":"43.95",
-            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
-        },
+    {
+        "category":"clams",
+        "product": "Two Clams",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
     
-        {
-            "category":"clams",
-            "product": "Two Clams",
-            "price":"43.95",
-            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
-        },
+    {
+        "category":"clams",
+        "product": "Two Clams",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
     
-        {
-            "category":"clams",
-            "product": "Two Clams",
-            "price":"43.95",
-            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
-        },
+    {
+        "category":"clams",
+        "product": "Two Clams",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
     
-        {
-            "category":"clams",
-            "product": "Two Clams",
-            "price":"43.95",
-            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
-        },
+    {
+        "category":"clams",
+        "product": "Two Clams",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
     
-        {
-            "category":"clams",
-            "product": "Two Clams",
-            "price":"43.95",
-            "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
-        },
+    {
+        "category":"clams",
+        "product": "Two Clams",
+        "price":"43.95",
+        "image": "https://dl2.pushbulletusercontent.com/G9rzGbtyfdTETtIIlI57SJ7gv29HV1YS/Anchor.png",
+    },
 ];
 
