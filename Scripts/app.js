@@ -24,7 +24,7 @@ function renderPage(productArr){
     var stack = "";
     var cardOut = "";
     var closeDiv = "</div>";
-    var cardTag = "<div class='card col-6'>";
+    var cardTag = "<div class='card col-4'>";
     var cardDeckTag = "<div class='card-deck mt-4'>";
     var cardBodyTag = "<div class='card-body'>";
     var mainbody = document.getElementById ("mainBody");
