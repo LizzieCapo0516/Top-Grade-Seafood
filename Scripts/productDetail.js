@@ -9,7 +9,13 @@ console.log("value:", b);
 
 var productItem = [];
 
-seaFoodStore.forEach( el=> {
+seaFoodStore.forEach( el => {
+    if (el.productID == b){
+        productItem.push(el);
+    }
+});
+
+test.forEach( el=> {
     if (el.productID == b){
         productItem.push(el);
     }
