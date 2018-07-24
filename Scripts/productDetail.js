@@ -1,11 +1,11 @@
 var qString = window.location.href;
-console.log("href:", qString);
+// console.log("href:", qString);
 
 var a = qString.split("?")[1];
-console.log("parm:",a);
+// console.log("parm:",a);
 
 var b = a.split("=")[1];
-console.log("value:", b);
+// console.log("value:", b);
 
 var productItem = [];
 
@@ -21,7 +21,7 @@ test.forEach( el=> {
     }
 });
 
-console.log("item:",productItem[0].product)
+// console.log("item:",productItem[0].product)
 
 
 var imgTag = document.getElementById("productImg");
