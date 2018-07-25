@@ -104,3 +104,7 @@ p.footer {
 .dropdown:hover .dropdown-menu{
     display: inherit;
   }
+
+a.dropdown-menu {
+    border: none;
+}
