@@ -135,7 +135,7 @@ var seaFoodStore =
     {
         "category":"Shrimp",
         "productID" : "sh05",
-        "product": "Red Shrimp",
+        "product": "Orange Shrimp",
         "price":"$43.95",
         "image": "../Images/Shrimp2.jpg",
     },
@@ -143,7 +143,7 @@ var seaFoodStore =
     {
         "category":"Shrimp",
         "productID" : "sh06",
-        "product": "Red Shrimp",
+        "product": "Yellow Shrimp",
         "price":"$43.95",
         "image": "../Images/Shrimp2.jpg",
     },
@@ -201,7 +201,7 @@ var seaFoodStore =
     {
         "category":"Clams",
         "productID" : "cl01",
-        "product": "One Clam",
+        "product": "Red Clams",
         "price":"$43.95",
         "image": "../Images/Clam2.jpg",
     },
@@ -209,7 +209,7 @@ var seaFoodStore =
     {
         "category":"Clams",
         "productID" : "cl02",
-        "product": "Two Clams",
+        "product": "Orange Clams",
         "price":"$43.95",
         "image": "../Images/Clam2.jpg",
     },
@@ -217,7 +217,7 @@ var seaFoodStore =
     {
         "category":"Clams",
         "productID" : "cl03",
-        "product": "Two Clams",
+        "product": "Yellow Clams",
         "price":"$43.95",
         "image": "../Images/Clam2.jpg",
     },
@@ -225,7 +225,7 @@ var seaFoodStore =
     {
         "category":"Clams",
         "productID" : "cl04",
-        "product": "Two Clams",
+        "product": "Green Clams",
         "price":"$43.95",
         "image": "../Images/Clam2.jpg",
     },
@@ -233,7 +233,7 @@ var seaFoodStore =
     {
         "category":"Clams",
         "productID" : "cl05",
-        "product": "Two Clams",
+        "product": "Blue Clams",
         "price":"$43.95",
         "image": "../Images/Clam2.jpg",
     },
@@ -241,7 +241,7 @@ var seaFoodStore =
     {
         "category":"Clams",
         "productID" : "cl06",
-        "product": "Two Clams",
+        "product": "Purple Clams",
         "price":"$43.95",
         "image": "../Images/Clam2.jpg",
     },
