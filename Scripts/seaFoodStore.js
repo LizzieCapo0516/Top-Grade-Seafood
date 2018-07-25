@@ -152,7 +152,7 @@ var seaFoodStore =
     {
         "category":"Scallops",
         "productID" : "sc01",
-        "product": "One Scallop",
+        "product": "Red Scallops",
         "price":"$43.95",
         "image": "../Images/Scallop2.jpg",
     },
@@ -160,7 +160,7 @@ var seaFoodStore =
     {
         "category":"Scallops",
         "productID" : "sc02",
-        "product": "Two Scallops",
+        "product": "Orange Scallops",
         "price":"$43.95",
         "image": "../Images/Scallop2.jpg",
     },
@@ -168,7 +168,7 @@ var seaFoodStore =
     {
         "category":"Scallops",
         "productID" : "sc03",
-        "product": "Two Scallops",
+        "product": "Yellow Scallops",
         "price":"$43.95",
         "image": "../Images/Scallop2.jpg",
     },
@@ -176,7 +176,7 @@ var seaFoodStore =
     {
         "category":"Scallops",
         "productID" : "sc04",
-        "product": "Two Scallops",
+        "product": "Green Scallops",
         "price":"$43.95",
         "image": "../Images/Scallop2.jpg",
     },
@@ -184,7 +184,7 @@ var seaFoodStore =
     {
         "category":"Scallops",
         "productID" : "sc05",
-        "product": "Two Scallops",
+        "product": "Blue Scallops",
         "price":"$43.95",
         "image": "../Images/Scallop2.jpg",
     },
@@ -192,7 +192,7 @@ var seaFoodStore =
     {
         "category":"Scallops",
         "productID" : "sc06",
-        "product": "Two Scallops",
+        "product": "Purple Scallops",
         "price":"$43.95",
         "image": "../Images/Scallop2.jpg",
     },

@@ -15,15 +15,6 @@ seaFoodStore.forEach( el => {
     }
 });
 
-test.forEach( el=> {
-    if (el.productID == b){
-        productItem.push(el);
-    }
-});
-
-// console.log("item:",productItem[0].product)
-
-
 var imgTag = document.getElementById("productImg");
 imgTag.src = productItem[0].image;
 
