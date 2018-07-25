@@ -86,7 +86,7 @@ p.footer {
     width: 6.736em;
 }
 
-#dropdownMenuButton {
+#dropdownMenu2 {
     background-color: #ffffff;
     border: none;
     color: #4d4d4d;
@@ -101,6 +101,6 @@ p.footer {
     display: none;
 }
 
-/* .dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu{
     display: inherit;
-  } */
+  }
