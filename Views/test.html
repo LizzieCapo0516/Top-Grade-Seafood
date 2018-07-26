@@ -15,28 +15,21 @@
 
 <body>
     <div class="container-fluid">
+        
+    <!-- ~~~~~~~~~~ HEADER ~~~~~~~~~~ -->
+
         <div class="row flex-column">
             <a href="homepage.html"><h1 class="header">Top Grade Seafood</h1></a>
         </div>
 
+    <!-- ~~~~~~~~~~ NAVBAR ~~~~~~~~~~ -->
 
-
-
-
-
-
-
-
-
-
-
-        
         <div class="d-flex flex-column flex-md-row justify-content-center pb-3 px-md-4 mb-0 bg-white border-bottom box-shadow">
 
             <div class="btn-group">
 
                 <div class="dropdown">
-                    <a href="#" onclick="loadPage('Crabs')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="#" onclick="gotoProduct('Crabs')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Crabs
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -50,7 +43,7 @@
                 </div>
 
                 <div class="dropdown">
-                    <a href="#" onclick="loadPage('Oysters')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="#" onclick="gotoProduct('Oysters')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Oysters
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -64,7 +57,7 @@
                 </div>
 
                 <div class="dropdown">
-                    <a href="#" onclick="loadPage('Shrimp')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="#" onclick="gotoProduct('Shrimp')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Shrimp
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -78,7 +71,7 @@
                 </div>
 
                 <div class="dropdown">
-                    <a href="#" onclick="loadPage('Scallops')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="#" onclick="gotoProduct('Scallops')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Scallops
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -92,7 +85,7 @@
                 </div>
 
                 <div class="dropdown">
-                    <a href="#" onclick="loadPage('Clams')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="#" onclick="gotoProduct('Clams')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Clams
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -107,18 +100,10 @@
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
     </div>
+
+    <img src="http://www.arkmark.co.za/images/under_construction_warning_sign.png" alt="Under Contruction" width="30%" height="30%"
+    class="center">
 
     <div id="mainBody" class="mt-5 mb-5 col-6 offset-3"></div>
 
@@ -134,9 +119,7 @@
         </nav>
     </div> -->
 
-
-
-
+    <!-- ~~~~~~~~~~ SCRIPTS ~~~~~~~~~~ -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -146,6 +129,7 @@
         crossorigin="anonymous"></script>
     <script src="../Scripts/seaFoodStore.js"></script>
     <script src="../Scripts/product.js"></script>
+    <script src="../Scripts/homePage.js"></script>
     <script src="../Scripts/test.js"></script>
 
 </body>
