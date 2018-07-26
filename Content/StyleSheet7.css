@@ -44,9 +44,10 @@ p.footer {
     font-weight: 600;
 }
 
-.fa-envelope {
+span.fa-envelope {
     color: #0336b6;
-    position: right;
+    margin-left: 45em;
+    margin-top: .1em;
 }
 
 .verticalcenter {
@@ -110,3 +111,24 @@ p.footer {
     background-color: #6c757d;
     border: none;
 }
+
+.dropdown-menu {
+    background-color: #fff;
+    opacity: .9;
+    border: none;
+    margin-top: .6em;
+    border-radius: 0rem 0rem .25rem .25rem;
+}
+
+
+
+    /* position: right; */
+    /* float: right; */
+    /* align-content: flex-end; */
+    /* align-items: flex-end; */
+    /* align-self: flex-end; */
+    /* float: right; */
+    /* justify-content: right; */
+    /* object-position: right; */
+    /* position: relative; */
+    /* text-align: right; */
