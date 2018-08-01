@@ -15,11 +15,7 @@ seaFoodStore.forEach( el => {
     }
 });
 
-var imgTag = document.getElementById("productImg");
-imgTag.src = productItem[0].image;
-
-var product = productItem[0].product;
-document.getElementById("prodTitle").innerHTML = product;
-
-var price = productItem[0].price;
-document.getElementById("prodPrice").innerHTML = price;
+var card = productItem[0];
+var mainDiv = document.getElementById("mainDiv");
+var template = mainDiv.innerHTML;
+mainDiv.innerHTML = Mustache.render(template, card)
