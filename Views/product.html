@@ -1,240 +1,260 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+    <head>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+            crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="../Content/StyleSheet7.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+            crossorigin="anonymous">
 
-</head>
+    </head>
 
-<body>
-    <div class="container-fluid">
-        <!-- <div class="row">
+    <body>
+        <div class="container-fluid">
+            <!-- <div class="row">
                 <a href="Contact.html" alt="Contact Us"><i class="fas fa-envelope fa-2x justify-content-right"></i></a>
         </div> -->
 
-    <!-- ~~~~~~~~~~ HEADER ~~~~~~~~~~ -->
+            <!-- ~~~~~~~~~~ HEADER ~~~~~~~~~~ -->
 
-        <div class="row flex-column">
-            <a href="index.html">
-                <h1 class="header">Top Grade Seafood</h1>
-            </a>
-        </div>
-
-    <!-- ~~~~~~~~~~ NAVBAR ~~~~~~~~~~ -->
-
-    <div class="d-flex flex-column flex-md-row justify-content-center pb-3 px-md-4 mb-0 bg-white border-bottom box-shadow">
-
-        <div class="btn-group">
-
-            <div class="dropdown">
-                <a href="#" onclick="gotoProduct('Crabs')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Crabs
+            <div class="row flex-column">
+                <a href="../index.html">
+                    <h1 class="header">Top Grade Seafood</h1>
                 </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cr01')">Medium Soft Shell Crabs</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cr02')">Hotel Soft Shell Crabs</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cr03')">Prime Soft Shell Crabs</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cr04')">Jumbo Soft Shell Crabs</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cr05')">Whale Soft Shell Crabs</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cr06')">Crab Meat</a>
+            </div>
+
+            <!-- ~~~~~~~~~~ NAVBAR ~~~~~~~~~~ -->
+
+            <div class="d-flex flex-column flex-md-row justify-content-center pb-3 px-md-4 mb-0 bg-white border-bottom box-shadow">
+
+                <div class="btn-group">
+
+                    <div class="dropdown">
+                        <a href="#" onclick="gotoProduct('Crabs')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Crabs
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cr01')">Medium Soft Shell Crabs</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cr02')">Hotel Soft Shell Crabs</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cr03')">Prime Soft Shell Crabs</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cr04')">Jumbo Soft Shell Crabs</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cr05')">Whale Soft Shell Crabs</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cr06')">Crab Meat</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="#" onclick="gotoProduct('Oysters')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Oysters
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('oy01')">Whole Oysters</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('oy02')">Half Shell Oysters</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('oy03')">Frozen Half Shell Oysters</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('oy04')">Select Oysters</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('oy05')">Placeholder Oysters</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('oy06')">Placeholder Oysters</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="#" onclick="gotoProduct('Shrimp')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Shrimp
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sh01')">Jumbo Shrimp</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sh02')">Large Shrimp</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sh03')">Medium Shrimp</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sh04')">Red Shrimp</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sh05')">Orange Shrimp</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sh06')">Yellow Shrimp</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="#" onclick="gotoProduct('Scallops')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Scallops
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sc01')">Red Scallops</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sc02')">Orange Scallops</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sc03')">Yellow Scallops</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sc04')">Green Scallops</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sc05')">Blue Scallops</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('sc06')">Purple Scallops</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="#" onclick="gotoProduct('Clams')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Clams
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cl01')">Red Clams</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cl02')">Orange Clams</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cl03')">Yellow Clams</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cl04')">Green Clams</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cl05')">Blue Clams</a>
+                            <a class="dropdown-item" href="#" onclick="gotoDetail('cl06')">Purple Clams</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="dropdown">
-                <a href="#" onclick="gotoProduct('Oysters')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Oysters
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('oy01')">Whole Oysters</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('oy02')">Half Shell Oysters</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('oy03')">Frozen Half Shell Oysters</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('oy04')">Select Oysters</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('oy05')">Placeholder Oysters</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('oy06')">Placeholder Oysters</a>
-                </div>
+            <div id="mainDiv" class="mt-5 mb-5 col-6 offset-3">
+                {{#rows}}
+                    <div class="card-deck mt-4">
+                            {{#row}}
+                            <div class="card col-4">
+                                <img class="card-img-top" src="{{image}}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{product}}</h5>
+                                    <p class="card-text">Price: {{price}}</p>
+                                    <a href="productDetail.html?pid={{productID}}">Details</a>
+                                </div>
+                            </div>
+                            {{/row}}
+                    </div>
+                {{/rows}}
             </div>
 
-            <div class="dropdown">
-                <a href="#" onclick="gotoProduct('Shrimp')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Shrimp
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sh01')">Jumbo Shrimp</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sh02')">Large Shrimp</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sh03')">Medium Shrimp</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sh04')">Red Shrimp</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sh05')">Orange Shrimp</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sh06')">Yellow Shrimp</a>
-                </div>
-            </div>
-
-            <div class="dropdown">
-                <a href="#" onclick="gotoProduct('Scallops')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Scallops
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sc01')">Red Scallops</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sc02')">Orange Scallops</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sc03')">Yellow Scallops</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sc04')">Green Scallops</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sc05')">Blue Scallops</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('sc06')">Purple Scallops</a>
-                </div>
-            </div>
-
-            <div class="dropdown">
-                <a href="#" onclick="gotoProduct('Clams')" class="btn btn-secondary dropdown-toggle ml-3 mr-3 navbartext" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Clams
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cl01')">Red Clams</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cl02')">Orange Clams</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cl03')">Yellow Clams</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cl04')">Green Clams</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cl05')">Blue Clams</a>
-                    <a class="dropdown-item" href="#" onclick="gotoDetail('cl06')">Purple Clams</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-        <div id="mainBody" class="mt-5 mb-5 col-6 offset-3"></div>
-
-    <!-- ~~~~~~~~~~ FOOTER ~~~~~~~~~~ -->
+                <!-- ~~~~~~~~~~ FOOTER ~~~~~~~~~~ -->
 
         <div class="row">
-            <footer class="footer">
-                <!-- FIRST ROW / HEADERS-->
-
-                <div class="row footerheaders justify-content-center mt-4">
-                    <div class="col-2 text-center">
-                        <p>Contact Us</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>Site Map</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>Main Menu</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>Text</p>
-                    </div>
-                </div>
-
-                <!-- SECOND ROW-->
-
-                <div class="row justify-content-center">
-                    <div class="col-2">
-                        <p>
-                            <b>Top Grade Seafood Incorporated</b>
-                        </p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                            <p>Home</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>R2C3</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>R2C4</p>
-                    </div>
-                </div>
-
-                <!-- THIRD ROW-->
-
-                <div class="row justify-content-center">
-                    <div class="col-2">
-                        <p>4299 Paul Gumby Rd.
-                            <br>Marion Station, MD 21838</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>Search</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>R3C3</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>R3C4</p>
-                    </div>
-                </div>
-
-                <!-- FOURTH ROW -->
-
-                <div class="row justify-content-center">
-                    <div class="col-2">
-                        <p>(123) 456-7890</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>About</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>R4C3</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>R4C4</p>
-                    </div>
-                </div>
-
-                <!-- FIFTH ROW -->
-
-                <div class="row justify-content-center">
-                    <div class="col-2">
-                        <p>contactus@topgradeseafood.com</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>Crabs</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>R5C3</p>
-                    </div>
-
-                    <div class="col-2 text-center">
-                        <p>R5C4</p>
-                    </div>
-                </div>
-
-
-                <div class="row justify-content-center mt-5 mb-1">
-                    <p> &reg; 2018 Top Grade Seafood Incorporated. All rights reserved.</p>
-                </div>
-            </footer>
-        </div>
-    </div>
-
-
-    </div>
-
-    <!-- ~~~~~~~~~~ SCRIPTS ~~~~~~~~~~ -->
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script src="../Scripts/seaFoodStore.js"></script>
-    <script src="../Scripts/product.js"></script>
-    <script src="../Scripts/homePage.js"></script>
+                <footer class="footer">
+                    <!-- FIRST ROW / HEADERS-->
     
-    <script src="../Scripts/app.js"></script>
+                    <div class="row footerheaders justify-content-center mt-4">
+                        <div class="col-2 text-center">
+                            <p>Contact Us</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>Site Map</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>Main Menu</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>Text</p>
+                        </div>
+                    </div>
+    
+                    <!-- SECOND ROW-->
+    
+                    <div class="row justify-content-center">
+                        <div class="col-2">
+                            <p>
+                                <b>Top Grade Seafood Incorporated</b>
+                            </p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                                <p>Home</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>R2C3</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>R2C4</p>
+                        </div>
+                    </div>
+    
+                    <!-- THIRD ROW-->
+    
+                    <div class="row justify-content-center">
+                        <div class="col-2">
+                            <p>4299 Paul Gumby Rd.
+                                <br>Marion Station, MD 21838</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>Search</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>R3C3</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>R3C4</p>
+                        </div>
+                    </div>
+    
+                    <!-- FOURTH ROW -->
+    
+                    <div class="row justify-content-center">
+                        <div class="col-2">
+                            <p>(123) 456-7890</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>About</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>R4C3</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>R4C4</p>
+                        </div>
+                    </div>
+    
+                    <!-- FIFTH ROW -->
+    
+                    <div class="row justify-content-center">
+                        <div class="col-2">
+                            <p>contactus@topgradeseafood.com</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>Crabs</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>R5C3</p>
+                        </div>
+    
+                        <div class="col-2 text-center">
+                            <p>R5C4</p>
+                        </div>
+                    </div>
+    
+    
+                    <div class="row justify-content-center mt-5 mb-1">
+                        <p> &reg; 2018 Top Grade Seafood Incorporated. All rights reserved.</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
 
-</body>
+        <!-- ~~~~~~~~~~ SCRIPTS ~~~~~~~~~~ -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>   
+            <script src="../Scripts/seaFoodStore.js"></script>
+        <script src="../Scripts/app.js"></script>
+        <script src="../Scripts/product.js"></script>
+    </body>
 
 </html>

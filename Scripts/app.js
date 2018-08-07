@@ -1,7 +1,7 @@
 function gotoProduct(cat){
-    window.location.href = "product.html?cat=" + cat;
+    window.location.href = "../Views/product.html?cat=" + cat;
 };
 
 function gotoDetail(pid){
-    window.location.href = "productDetail.html?pid=" + pid;
+    window.location.href = "../Views/productDetail.html?pid=" + pid;
 };
