@@ -16,11 +16,15 @@
 
     <body>
         <div class="container-fluid">
-            <!-- <div class="row">
-                <a href="Contact.html" alt="Contact Us"><i class="fas fa-envelope fa-2x justify-content-right"></i></a>
-        </div> -->
 
-            <!-- ~~~~~~~~~~ HEADER ~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~ GLYPHICONS ~~~~~~~~~~ -->
+                    
+        <div class="row justify-content-end">
+            <a href="../Views/contact.html" class="fas fa-envelope fa-2x m-1 mt-2 mr-2" alt="Contact Us"></a>
+            <a href="../Views/cart.html" class="fas fa-shopping-cart fa-2x m-1 mt-2 mr-3" alt="Contact Us"></a>
+        </div>
+                    
+<!-- ~~~~~~~~~~ HEADER ~~~~~~~~~~ -->
 
             <div class="row flex-column">
                 <a href="../index.html">
@@ -28,7 +32,7 @@
                 </a>
             </div>
 
-            <!-- ~~~~~~~~~~ NAVBAR ~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~ NAVBAR ~~~~~~~~~~ -->
 
             <div class="d-flex flex-column flex-md-row justify-content-center pb-3 px-md-4 mb-0 bg-white border-bottom box-shadow">
 
@@ -115,20 +119,24 @@
                 {{#rows}}
                     <div class="card-deck mt-4">
                             {{#row}}
+
+
                             <div class="card col-4">
-                                <img class="card-img-top" src="{{image}}" alt="Card image cap">
+                                <a href="productDetail.html?pid={{productID}}">
+                                    <img class="card-img-top" src="{{image}}" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">{{product}}</h5>
                                     <p class="card-text">Price: {{price}}</p>
-                                    <a href="productDetail.html?pid={{productID}}">Details</a>
                                 </div>
-                            </div>
+                            </a>
+                        </div>
+
                             {{/row}}
                     </div>
                 {{/rows}}
             </div>
 
-                <!-- ~~~~~~~~~~ FOOTER ~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~ FOOTER ~~~~~~~~~~ -->
 
         <div class="row">
                 <footer class="footer">
@@ -223,7 +231,7 @@
                         </div>
     
                         <div class="col-2 text-center">
-                            <p>Crabs</p>
+                            <p>R5C2</p>
                         </div>
     
                         <div class="col-2 text-center">
@@ -243,7 +251,7 @@
             </div>
         </div>
 
-        <!-- ~~~~~~~~~~ SCRIPTS ~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~ SCRIPTS ~~~~~~~~~~ -->
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>

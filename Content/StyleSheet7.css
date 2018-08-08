@@ -5,7 +5,7 @@
     color: #0336b6; /*(photoshop)*/
     font-family: 'Universal Serif';
     font-style: normal;
-    margin-top: 0.5em;
+    margin-top: 0em;
     font-size: 4em;
     font-weight: 700;
     white-space: nowrap;
@@ -44,10 +44,9 @@ p.footer {
     font-weight: 600;
 }
 
-span.fa-envelope {
+a.fas {
     color: #0336b6;
     margin-left: 45em;
-    margin-top: .1em;
 }
 
 .verticalcenter {
@@ -119,16 +118,3 @@ span.fa-envelope {
     margin-top: .6em;
     border-radius: 0rem 0rem .25rem .25rem;
 }
-
-
-
-    /* position: right; */
-    /* float: right; */
-    /* align-content: flex-end; */
-    /* align-items: flex-end; */
-    /* align-self: flex-end; */
-    /* float: right; */
-    /* justify-content: right; */
-    /* object-position: right; */
-    /* position: relative; */
-    /* text-align: right; */
