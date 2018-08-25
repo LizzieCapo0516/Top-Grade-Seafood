@@ -1,4 +1,31 @@
-var seaFoodStore = 
+var data = {
+    cardList: [
+      {
+        pid: "cr01",
+        qty: "2",
+        product: "Medium Soft Shell Crab",
+        price: "25.00"
+      },
+      {
+        pid: "oy02",
+        qty: "4",
+        product: "Half Shell Oysters",
+        price: "43.95"
+      },
+      {
+        pid: "sc02",
+        qty: "1",
+        product: "Orange Scallops",
+        price: "43.95"
+      }
+    ],
+    cartDetails: {
+      totalQty: 0,
+      totalPrice: 0
+      }
+  };
+  
+  var seaFoodStore = 
 [
 
     // CRABS----------------------------------
