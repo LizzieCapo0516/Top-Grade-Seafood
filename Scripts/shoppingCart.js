@@ -1,37 +1,45 @@
 
-var test123 = '123';
+// Function literal
+var ShoppingCart = {
 
-// iffy
-// iife - Immediately Invoked Function Expression
-var ShoppingCart = (function(){
-    testabc: 'abc';
+        getShoppingCartFromLocalStorage: _ => {
+            return JSON.parse(localStorage.getItem('cart'));
+        },
 
-    addToCart: pid => {
-        console.log('productId:', pid);
-    
-        seaFoodStore.forEach((el) => {
-            if (el.productID == pid){
-    
-                var cardObj = {
-                    pid: pid,
-                    qty: '1',
-                    product: el.product,
-                    price: el.price
+        addToCart: pid => {
+
+            var cartLS = [];
+            console.log('productId:', pid);
+        
+            seaFoodStore.forEach((el) => {
+                if (el.productID == pid){
+        
+                    var cardObj = {
+                        pid: pid,
+                        qty: '1',
+                        product: el.product,
+                        price: el.price
+                    }
+                    cartLS = ShoppingCart.getShoppingCartFromLocalStorage();
+                    cartLS.push(cardObj);  
+                    localStorage.setItem('cart',JSON.stringify(cartLS));      
                 }
-                data.cardList.push(cardObj);        
+            });
+        },
+    
+        calcTotal: cart => {
+
+            var totalQty = 0;
+            var totalPrice = 0;
+
+            cart.forEach((el)=>{
+                totalQty += parseInt(el.qty);
+                totalPrice += parseInt(el.qty) * parseFloat(el.price);    
+            });  
+            
+            return {
+                'totalQty': totalQty,
+                'totalPrice': totalPrice
             }
-        });
-    };
-
-    calcTotal: _ => {
-        data.cardList.forEach((el)=>{
-            data.cartDetails.totalQty += parseInt(el.qty);
-            data.cartDetails.totalPrice += parseInt(el.qty) * parseFloat(el.price);    
-        });        
-    }
-
-    return {
-        addToCart: addToCart,
-        calcTotal: calcTotal 
-    }
-})()
+        }
+}
