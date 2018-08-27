@@ -10,7 +10,7 @@ var ShoppingCart = {
 
             var cartLS = [];
         
-            seaFoodStore.forEach((el) => { // refactor this forEach => use arryay.filter() or array.find()
+            seaFoodStore.forEach((el) => { // refactor this forEach => use either array.filter() or array.find()
                 if (el.productID == pid){
         
                     var cardObj = {
