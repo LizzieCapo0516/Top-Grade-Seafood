@@ -9,9 +9,8 @@ var ShoppingCart = {
         addToCart: pid => {
 
             var cartLS = [];
-            console.log('productId:', pid);
         
-            seaFoodStore.forEach((el) => {
+            seaFoodStore.forEach((el) => { // refactor this forEach => use arryay.filter() or array.find()
                 if (el.productID == pid){
         
                     var cardObj = {
@@ -20,7 +19,12 @@ var ShoppingCart = {
                         product: el.product,
                         price: el.price
                     }
-                    cartLS = ShoppingCart.getShoppingCartFromLocalStorage();
+
+                    var ls = ShoppingCart.getShoppingCartFromLocalStorage();
+                    if (ls)
+                    {
+                        cartLS = ShoppingCart.getShoppingCartFromLocalStorage();
+                    }
                     cartLS.push(cardObj);  
                     localStorage.setItem('cart',JSON.stringify(cartLS));      
                 }
